@@ -41,10 +41,4 @@ The script `shodan_check.sh` performs the following tasks:
    ```bash
    ./shodan_check.sh
 
-# Shodan Mass IP Checker
-
-This is a simple Bash script to perform a mass check of IP addresses using Shodan. The script reads a list of IP addresses from a file, queries Shodan for each IP, and saves the results to a text file.
-
-## View the Results
-
-After the script finishes running, check the `shodan_results.txt` file for the output. This file will contain the Shodan results for each IP address queried.   
+3. **View the Results**: After the script finishes running, check the `shodan_results.txt` file for the output. This file will contain the Shodan results for each IP address queried.   
