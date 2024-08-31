@@ -47,3 +47,7 @@ The script `shodan_check.sh` performs the following tasks:
 
 - **Ensure that you have sufficient API quota on Shodan**, as querying a large number of IPs may consume your available API requests.
 - **The script will append new results to `shodan_results.txt`.** If you want a fresh start, consider deleting or renaming the existing `shodan_results.txt` file before running the script.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
