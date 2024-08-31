@@ -41,4 +41,9 @@ The script `shodan_check.sh` performs the following tasks:
    ```bash
    ./shodan_check.sh
 
-3. **View the Results**: After the script finishes running, check the `shodan_results.txt` file for the output. This file will contain the Shodan results for each IP address queried.   
+3. **View the Results**: After the script finishes running, check the `shodan_results.txt` file for the output. This file will contain the Shodan results for each IP address queried.
+
+### Notes
+
+- **Ensure that you have sufficient API quota on Shodan**, as querying a large number of IPs may consume your available API requests.
+- **The script will append new results to `shodan_results.txt`.** If you want a fresh start, consider deleting or renaming the existing `shodan_results.txt` file before running the script.
